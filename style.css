@@ -168,7 +168,7 @@ body {
    *スマホ用のスタイルシート
    */
 
-   @media screen and (max-width: 767px){
+   @media screen and (max-width: 480px){
         body {
             min-width: 100%;
         }   
@@ -205,6 +205,7 @@ body {
         .item-list {
             max-width: 100%;
         } 
+        
         .item-list b {
             font-size: 18px;
         }
@@ -215,8 +216,6 @@ body {
             text-align: left;
         }
 
-        
-        
         .icon-list {
             max-width: 100%;
         }
@@ -241,17 +240,16 @@ body {
         .works-list li {
             max-width: 100%;
             float: none;
-            margin-right: 0;
+            margin-right: 0px;
             margin-bottom: 30px;
         }
 
-        .works-list h3 {
+        .works-list li h3 {
             font-size: 20px;
             margin: 5px 0;
         }
 
-        .works-list span {
+        .works-list li span {
             font-size: 14px;
         }
-
-   }
+    }
